@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+  <script src="loginjs.js"></script> 
+ <link rel ="stylesheet" type ="text/css" href =" css/bootstrap.min.css"/>	
+	<link rel ="stylesheet" type ="text/css" href ="js/bootstrap.bundle.js "/>
+  
+  <link rel ="stylesheet" type ="text/css" href =" jquery-3.2.1.min.js "/>
+ 
+
+ <style>
+ 
+  
+	
+body{
+	background: url(../images/bac.jpg) repeat-x center top;
+	}
+	 @media only screen and (max-width: 500px){
+body{
+background-color:lightblue;
+}
+}
+
+
+#payment{
+
+position:absolute;
+ color:white; 
+ text-align:center;
+ padding-top:110px;
+ padding-left:345px;
+ text-shadow: 2px 2px #ff0000;
+ font-size:35px;
+ letter-spacing: 3px;
+ }
+	#imgp{
+		margin-left:145px;
+		width: 980px;
+		border-radius:10px;
+		border-style: solid; 
+		border-width: 5px; 
+		border-color:#708090;
+	}
+		form{
+		position:absolute;
+		margin-left:10px;
+		padding:5px;
+		margin-bottom:5px;
+		
+		top:20px;
+		left: 200px;
+	
+	}
+	
+	.input1{
+	float:left;
+	width:980px;
+	left:153px;
+	border-radius:10px;
+	position:absolute;
+	height:600px;
+	
+	background-color:#708090;
+	margin-top:5px;
+	}
+	
+	.input2{
+	top:50px;
+	left: 50px;
+	height:500px;
+	width:800px;
+	border-radius: 10px; 
+	border:3px solid #000000;
+	position: absolute;
+	background-color:#E6E6FA;
+	
+	}
+</style>
+</head>
+
+<body>
+<div id="background">
+	
+<div id="payment"><b>Your Mobile Your Choice | eMobile</b></div>
+<a href="index.html"><img src="header.jpg" id="imgp" ></a>
+<div id="page">
+	<div align="left" style="height:30px;" >
+                <a href="index.html">
+                <input type="submit" style="border-radius:10px; width:100px; height:30px; color: white; background-color:#708090; position: absolute;  " Value="Home"/>
+                </a>
+	</div>             
+</div>	
+<div  class="input1">
+    <div class="input2 ">
+       	<form name="PaymentForm" method="post">
+       		 <center>
+			 <caption style="color: #00008B"><h2><B>Payment Information</B></h2></caption>
+			 <br><input id="name" style="width:300px; height:30px;" type="text" name="name" placeholder="Name"></br>
+			 <br><input id="email" style="width:300px; height:30px;" type="email" name="email" placeholder="Email"></br>
+			 <br><input id="card"style="width:300px; height:30px;" type="text" name="card" placeholder="Credit Card Number"></br>
+			 <br><input id="date"style="width:300px; height:30px;" type="text" name="expdat" placeholder="mm/yy"></br>
+			<br><input id="number"style="width:300px; height:30px;" type="password" name="cvv" placeholder="CVV"></br>
+			<br><input id="address"style="width:300px; height:30px;" type="text" name="address" placeholder="Address"></br>
+			 <br><input onclick="paymentCheck()"class="btn btn-success" type="submit" value="Submit" style="width: 100px"; "height: 40px;background-color: #B0C4DE;border-radius:7px;color: #000000" /></br>
+			
+		</form>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
+ 

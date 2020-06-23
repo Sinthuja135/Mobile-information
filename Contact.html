@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Your Mobile Your Choice | eMobile</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="loginjs.js"></script>
+	<style>
+	
+		
+body{
+	background: url(../images/bac.jpg) repeat-x center top;
+	}
+	 @media only screen and (max-width: 500px){
+body{
+background-color:lightblue;
+}
+}
+	#one{
+			position:relative;
+		}
+		#two{
+			position:absolute;
+			color:white; 
+			text-align:center;
+			padding-top:110px;
+			padding-left:200px;
+			text-shadow: 2px 2px #ff0000;
+			font-size:35px;
+			letter-spacing: 3px;
+		}
+		#img{
+		width: 980px;
+		border-radius:10px;
+		border-style: solid; 
+		border-width: 5px;
+		border-color:#708090;
+		}
+		#in1{
+		border-radius:10px; 
+		width:100px; 
+		height:30px; 
+		color: white;
+		background-color:#708090;
+		}
+		form{
+		background-color:#E6E6FA; 
+		position:absolute; 
+		text-align:right;
+		}
+	</style>
+	
+
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			<div id="one">
+			<div id="two"><b>Your Mobile Your Choice | eMobile</b></div>
+				<img src="header.jpg" id="img">
+			</div>
+                <div align="right" >
+					<a href="signIn.html">
+					<input type="submit" id="in1" Value="Login"/>
+					</a>
+                </div>
+				<div class="content">
+					<div id="navigation">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="Brand.html">Brand</a>
+						</li>
+						<li>
+							<a style="color: red;" href="signIn.html">Register</a>
+						</li>
+						<li class="selected">
+							<a href="Contact.html">contact</a>
+						</li>
+					</ul>
+				</div>
+			<div id="contents">
+				<div class="box">
+					<div>
+						<div id="contact" class="body">
+							<h1>Contact</h1>
+							<form name="contactForm" method="post">
+								<div id="table" style="position:absolute;">
+                                
+											<label>Name:</label>
+											<input id="name" type="text" name="cName" class="txtfield"><br><br>
+										
+											<label>Email:</label>
+											<input id="email" type="email" name="cEmail" class="txtfield"><br><br>
+									
+											<label>Subject:</label>
+											<input id="subject" type="text" name="cSubject" class="txtfield"><br><br>
+										
+											<label>Contact No:</label>
+											<input id="pno" type="text" name="cNum" class="txtfield"><br><br>
+										
+											
+											<input type="submit" id="insubmit" value="Send" onclick="check()" style="border-radius:10px; width:100px; height:30px; color: white; background-color:#708090;" >
+										
+								</div>
+							</form>
+							<div style="float:right;">
+							<h2>EMobile</h2>
+							
+							<p>
+								<span>Telephone Number:</span> 011XXXXXXX
+							</p>
+							<p>
+								<span>Email:</span> mobileshop@emobile.com
+							</p>
+                            <p>
+								<span>Address:</span>  eMobile, Colombo, Sri Lanka
+                                
+							</p></div>
+						</div>
+					</div>
+					
+				</div>
+				<div id="navigation">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="Brand.html">Brand</a>
+						</li>
+						<li>
+							<a style="color: red;" href="signIn.html">Register</a>
+						</li>
+						<li class="selected">
+							<a href="Contact.html">contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+       
+		<div id="footer">
+			<p>
+				© 2017 by eMobile. All Rights Reserved
+			</p>
+		</div>
+	</div>
+</body>
+</html>
